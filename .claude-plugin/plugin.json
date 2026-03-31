@@ -1,7 +1,7 @@
 {
   "name": "ruflo",
   "version": "2.5.0",
-  "description": "Enterprise AI agent orchestration plugin with 38 skills, SPARC methodology, swarm coordination, GitHub integration and AgentDB",
+  "description": "Enterprise AI agent orchestration plugin with SPARC methodology, swarm coordination, GitHub integration and AgentDB",
   "author": {
     "name": "rUv",
     "email": "ruv@ruv.net"
@@ -12,11 +12,7 @@
     "url": "https://github.com/Fabineas92/ruflo.git"
   },
   "license": "MIT",
-  "keywords": [
-    "ai-agents",
-    "swarm-intelligence",
-    "sparc-methodology",
-    "github-automation",
-    "orchestration"
-  ]
+  "skills": "./plugin/skills",
+  "commands": "./plugin/commands",
+  "agents": "./plugin/agents"
 }
